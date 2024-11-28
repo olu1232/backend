@@ -10,7 +10,6 @@ const { MongoClient } = require('mongodb');
 const app = express();
 
 
-
 // MongoDB Atlas connection
 const MONGO_URI = 'mongodb+srv://olumidet45:Oluzyboy1232@cluster0.f9mzk.mongodb.net/'; //  MongoDB Atlas URI
 const client = new MongoClient(MONGO_URI);
