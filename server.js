@@ -16,7 +16,7 @@ const MONGO_URI = 'mongodb+srv://olumidet45:Oluzyboy1232@cluster0.f9mzk.mongodb.
 const client = new MongoClient(MONGO_URI);
 
 let productsCollection;
-let ordersCollection;
+// let ordersCollection;
 
 // Connect to MongoDB Atlas
 (async () => {
