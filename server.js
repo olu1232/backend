@@ -36,7 +36,7 @@ app.use(cors());
 app.use(express.json());
 app.use(morgan("short"));
 
-const staticMiddleware = express.static(path.join(__dirname, '../frontend'));
+// const staticMiddleware = express.static(path.join(__dirname, '../frontend'));
 
 // Use a middleware to log errors if static files cannot be served
 app.use((req, res, next) => {
