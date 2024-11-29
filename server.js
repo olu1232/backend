@@ -18,17 +18,7 @@ let productsCollection;
 let ordersCollection;
 
 // Connect to MongoDB Atlas
-(async () => {
-  try {
-    await client.connect();
-    console.log('Connected to MongoDB Atlas');
-    const database = client.db('webstore'); //  Database name
-    productsCollection = database.collection('products'); //  collection name
-    ordersCollection = database.collection('orders'); //  collection name
-  } catch (err) {
-    console.error('Error connecting to MongoDB Atlas:', err);
-  }
-})();
+// s
 
 
 // Middleware setup
